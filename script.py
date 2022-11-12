@@ -4,11 +4,6 @@ import time
 import requests
 import os
 from os import environ
-environ['bearer_token'],
-environ['consumer_key'],
-environ['consumer_secret'],
-environ['access_token'],
-environ['access_token_secret']
 
 
 client = tweepy.Client(environ['bearer_token'],
