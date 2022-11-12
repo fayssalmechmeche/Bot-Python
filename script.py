@@ -1,5 +1,5 @@
 import tweepy
-import r
+import requests
 from os import environ
 
 
