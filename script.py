@@ -1,8 +1,5 @@
 import tweepy
-import json
-import time
-import requests
-import os
+import r
 from os import environ
 
 
