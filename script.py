@@ -23,6 +23,6 @@ for r in jsons['hadiths']:
 
         client.create_tweet(text=r['text'])
 
-        time.sleep(60)
+        time.sleep(43200)
     else:
         continue
