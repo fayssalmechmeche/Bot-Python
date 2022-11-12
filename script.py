@@ -10,7 +10,8 @@ client = tweepy.Client(environ['bearer_token'],
                        environ['access_token_secret'])
 
 
-r = requests.get('https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/fra-malik.min.json)
+r = requests.get(
+    'https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/fra-malik.min.json')
 
 jsons = r.json()
 
